@@ -19,6 +19,8 @@ struct FSecundarias_Tabla : public FTableRowBase
 public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Secundarias)
+		FName Categoria;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Secundarias)
 		int32 Acrobacias;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Secundarias)
 		int32 Atletismo;
